@@ -6,7 +6,7 @@ import random
 # Beispielhafte motivierende Sprüche
 MOTIVATION_QUOTES = [
     "Mach weiter, oder ich fang an zu schreien. 😤",
-    "Du schaffst das, mach weiter so",
+    "Du schaffst das, mach weiter so",  
     "Wenn du's heute nicht machst, macht’s morgen niemand. 🫠",
     "Aufgaben lösen sich nicht von selbst. Leider. 😬",
     "Los jetzt, die Deadline wartet nicht auf faule Ausreden. ⏰",
