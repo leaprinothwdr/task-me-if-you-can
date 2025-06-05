@@ -23,8 +23,28 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Motivierende Sprüche
+# Beispielhafte motivierende Sprüche
 MOTIVATION_QUOTES = [
+
+    "Je früher du anfängst, desto eher kannst du dich wieder wie ein Couch-Potato fühlen. 🥔",
+    "Du bist nur eine erledigte Aufgabe von einem besseren Tag entfernt.🌤️",
+    "Diese Aufgabe macht sich nicht von alleine. Du bist hier nicht bei Disney.🧚‍♀️",
+    "Mach dir keinen Stress. Chaos hat auch seinen Charme. 🧨",
+    "Du hast wieder nichts geschafft? Stark. Eine echte Konstante im Leben. 👏",
+    "Dieser Task? Ach, der fühlt sich bestimmt geschmeichelt, so lange ignoriert zu werden. 💅",
+    "Guck mal, Motivation! … Oh nein, war nur ein Hirngespinst. 🫥",
+    "Zeit für deine Lieblingsbeschäftigung: Dinge tun, auf die du keinen Bock hast. 🎉",
+    "Erledige sie jetzt – bevor sie sich mit anderen Aufgaben zu einer Armee verbündet. 🧟‍♂️",
+    "Mach weiter, oder ich fang an zu schreien. 😤",
+    "Wenn du's heute nicht machst, macht’s morgen niemand. 🫠",
+    "Aufgaben lösen sich nicht von selbst. Leider. 😬",
+    "Los jetzt, die Deadline wartet nicht auf faule Ausreden. ⏰",
+    "Deine To-Do-Liste lacht dich gerade aus. Zeig ihr, wer Boss ist. 😎",
+    "Das ist keine Aufgabe. Das ist ein Charaktertest. 💥",
+    "Jede nicht erledigte Aufgabe macht eine Katze traurig. 😿",
+    "Du bist nicht müde. Du bist unmotiviert. Ändern wir das! 🔥",
+    "Willst du chillen oder deinen Abschluss? Beides geht nicht. 💀",
+    "Ich sag’s dir ungern, aber... du musst das jetzt machen. Sofort. 🫵",
     "Tu’s jetzt, sonst kommt der Lern-Goblin um Mitternacht. 🧌",
     "Erinnerst du dich an Motivation? Nein? Dann fang an! 🫵",
     "Diese Aufgabe erledigt sich nicht durch Scrollen. 📱✖️",
@@ -34,7 +54,16 @@ MOTIVATION_QUOTES = [
     "Du bist nicht zu müde. Dein innerer Schweinehund hat nur WLAN. 🐷📶",
     "Jeder Klick auf ‚Später‘ löscht ein Hirnzellchen. 🧠🔥",
     "Mach jetzt. Oder Duolingo schickt dir eine Eule in den Schlaf. 🦉",
-    "Entweder du erledigst die Aufgabe – oder sie erledigt dich. ☠️"
+    "Entweder du erledigst die Aufgabe – oder sie erledigt dich. ☠️",
+    "Du kannst nicht alles auf einmal tun 🤯 – aber du kannst alles auf die To-Do-Liste 📝 schieben!",
+    "Eine erledigte Aufgabe am Morgen 🌅 vertreibt Kummer und Sorgen 😌",
+    "Deine To-Do-Liste 📋 hat Gefühle 🥲 – tu ihr den Gefallen und streich was durch.",
+    "Jeder kleine Schritt 🚶 bringt dich näher ans Ziel 🎯.",
+    "Du bist nicht überfordert – du bist einfach auf dem Weg zu Großem 🌟.",
+    "Heute ist ein guter Tag, um was Großes zu starten 🚀!",
+    "Du brauchst keinen Plan B. Du brauchst Arsch hoch für Plan A 🍑🔥.",
+    "Dein To-Do schreit nicht – aber dein Chef bald schon 📢😬.",
+
 ]
 
 # Initialisierung Session State
