@@ -33,7 +33,6 @@ MOTIVATION_QUOTES = [
     "Deadline? Klingt wie dein Schicksal. 🔪",
     "Du bist nicht zu müde. Dein innerer Schweinehund hat nur WLAN. 🐷📶",
     "Jeder Klick auf ‚Später‘ löscht ein Hirnzellchen. 🧠🔥",
-    "Mach jetzt. Oder Duolingo schickt dir eine Eule in den Schlaf. 🦉",
     "Entweder du erledigst die Aufgabe – oder sie erledigt dich. ☠️",
     "Du kannst nicht alles auf einmal tun 🤯 – aber du kannst alles auf die To-Do-Liste 📝 schieben!",
     "Eine erledigte Aufgabe am Morgen 🌅 vertreibt Kummer und Sorgen 😌",
