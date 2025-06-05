@@ -5,6 +5,7 @@ import random
 
 # Beispielhafte motivierende Sprüche
 MOTIVATION_QUOTES = [
+    "Erledige sie jetzt – bevor sie sich mit anderen Aufgaben zu einer Armee verbündet. 🧟‍♂️",
     "Mach weiter, oder ich fang an zu schreien. 😤",
     "Wenn du's heute nicht machst, macht’s morgen niemand. 🫠",
     "Aufgaben lösen sich nicht von selbst. Leider. 😬",
