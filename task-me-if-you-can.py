@@ -5,6 +5,15 @@ import random
 
 # Beispielhafte motivierende Sprüche
 MOTIVATION_QUOTES = [
+
+    "Je früher du anfängst, desto eher kannst du dich wieder wie ein Sofa-Potato fühlen. 🥔",
+    "Du bist nur eine erledigte Aufgabe von einem besseren Tag entfernt.🌤️",
+    "Diese Aufgabe macht sich nicht von alleine. Du bist hier nicht bei Disney.🧚‍♀️",
+    "Mach dir keinen Stress. Chaos hat auch seinen Charme. 🧨",
+    "Du hast wieder nichts geschafft? Stark. Eine echte Konstante im Leben. 👏",
+    "Dieser Task? Ach, der fühlt sich bestimmt geschmeichelt, so lange ignoriert zu werden. 💅",
+    "Guck mal, Motivation! … Oh nein, war nur ein Hirngespinst. 🫥",
+    "Zeit für deine Lieblingsbeschäftigung: Dinge tun, auf die du keinen Bock hast. 🎉"
     "Erledige sie jetzt – bevor sie sich mit anderen Aufgaben zu einer Armee verbündet. 🧟‍♂️",
     "Mach weiter, oder ich fang an zu schreien. 😤",
     "Wenn du's heute nicht machst, macht’s morgen niemand. 🫠",
