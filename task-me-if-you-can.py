@@ -6,7 +6,7 @@ import random
 # Beispielhafte motivierende Sprüche
 MOTIVATION_QUOTES = [
 
-    "Je früher du anfängst, desto eher kannst du dich wieder wie ein Sofa-Potato fühlen. 🥔",
+    "Je früher du anfängst, desto eher kannst du dich wieder wie ein Couch-Potato fühlen. 🥔",
     "Du bist nur eine erledigte Aufgabe von einem besseren Tag entfernt.🌤️",
     "Diese Aufgabe macht sich nicht von alleine. Du bist hier nicht bei Disney.🧚‍♀️",
     "Mach dir keinen Stress. Chaos hat auch seinen Charme. 🧨",
