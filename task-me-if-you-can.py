@@ -35,14 +35,14 @@ MOTIVATION_QUOTES = [
     "Jeder Klick auf ‚Später‘ löscht ein Hirnzellchen. 🧠🔥",
     "Mach jetzt. Oder Duolingo schickt dir eine Eule in den Schlaf. 🦉",
     "Entweder du erledigst die Aufgabe – oder sie erledigt dich. ☠️",
-    "Du kannst nicht alles auf einmal tun 🤯 – aber du kannst alles auf die To-Do-Liste 📝 schieben!“,
+    "Du kannst nicht alles auf einmal tun 🤯 – aber du kannst alles auf die To-Do-Liste 📝 schieben!",
     "Eine erledigte Aufgabe am Morgen 🌅 vertreibt Kummer und Sorgen 😌",
-    "Deine To-Do-Liste 📋 hat Gefühle 🥲 – tu ihr den Gefallen und streich was durch.“,
-    "Jeder kleine Schritt 🚶 bringt dich näher ans Ziel 🎯.“,
-    "Du bist nicht überfordert – du bist einfach auf dem Weg zu Großem 🌟.“,
-    "Heute ist ein guter Tag, um was Großes zu starten 🚀!“,
-    "Du brauchst keinen Plan B. Du brauchst Arsch hoch für Plan A 🍑🔥.“,
-    "Dein To-Do schreit nicht – aber dein Chef bald schon 📢😬.“
+    "Deine To-Do-Liste 📋 hat Gefühle 🥲 – tu ihr den Gefallen und streich was durch.",
+    "Jeder kleine Schritt 🚶 bringt dich näher ans Ziel 🎯.",
+    "Du bist nicht überfordert – du bist einfach auf dem Weg zu Großem 🌟.",
+    "Heute ist ein guter Tag, um was Großes zu starten 🚀!",
+    "Du brauchst keinen Plan B. Du brauchst Arsch hoch für Plan A 🍑🔥.",
+    "Dein To-Do schreit nicht – aber dein Chef bald schon 📢😬.",
 
 ]
 
