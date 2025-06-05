@@ -13,7 +13,7 @@ MOTIVATION_QUOTES = [
     "Du hast wieder nichts geschafft? Stark. Eine echte Konstante im Leben. 👏",
     "Dieser Task? Ach, der fühlt sich bestimmt geschmeichelt, so lange ignoriert zu werden. 💅",
     "Guck mal, Motivation! … Oh nein, war nur ein Hirngespinst. 🫥",
-    "Zeit für deine Lieblingsbeschäftigung: Dinge tun, auf die du keinen Bock hast. 🎉"
+    "Zeit für deine Lieblingsbeschäftigung: Dinge tun, auf die du keinen Bock hast. 🎉",
     "Erledige sie jetzt – bevor sie sich mit anderen Aufgaben zu einer Armee verbündet. 🧟‍♂️",
     "Mach weiter, oder ich fang an zu schreien. 😤",
     "Wenn du's heute nicht machst, macht’s morgen niemand. 🫠",
@@ -24,7 +24,7 @@ MOTIVATION_QUOTES = [
     "Jede nicht erledigte Aufgabe macht eine Katze traurig. 😿",
     "Du bist nicht müde. Du bist unmotiviert. Ändern wir das! 🔥",
     "Willst du chillen oder deinen Abschluss? Beides geht nicht. 💀",
-    "Ich sag’s dir ungern, aber... du musst das jetzt machen. Sofort. 🫵"
+    "Ich sag’s dir ungern, aber... du musst das jetzt machen. Sofort. 🫵",
     "Tu’s jetzt, sonst kommt der Lern-Goblin um Mitternacht. 🧌",
     "Erinnerst du dich an Motivation? Nein? Dann fang an! 🫵",
     "Diese Aufgabe erledigt sich nicht durch Scrollen. 📱✖️",
