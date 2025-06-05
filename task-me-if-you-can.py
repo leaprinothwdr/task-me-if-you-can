@@ -59,7 +59,7 @@ page = st.sidebar.radio("Wähle eine Seite:", ["Aktive Aufgaben", "Erledigte Auf
 
 # Seite: Aktive Aufgaben
 if page == "Aktive Aufgaben":
-    st.title("🎓 Studenten Task Manager")
+    st.title("🎓 Task me if you can")
     st.subheader(random.choice(MOTIVATION_QUOTES))
 
     with st.form("new_task_form"):
