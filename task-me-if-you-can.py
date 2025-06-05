@@ -156,3 +156,65 @@ elif page == "Kalender":
         ]).sort_values("Fälligkeitsdatum")
 
         st.dataframe(calendar_data, use_container_width=True)
+
+
+st.markdown(
+    """
+<style>
+/* Hintergrund dunkel */
+body, .stApp {
+    background-color: #98F5FF;
+    color: #98F5FF;
+    /* FUNKTIONIERT */
+}
+
+/* Schrift anpassen */
+html, body, [class^="css"] {
+    font-family: 'Helvetica';
+    font-size: 16px;
+    color: #f5f5f5;
+    /* FUNKTIONIERT */
+}
+
+/* Inputfelder größer und heller */
+input, textarea, select {
+    font-size: 2.5rem !important;               /* Text von der Eingabe im Feld 1 */
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+    border: 1px solid #555 !important;
+    border-radius: 8px !important;
+    /*FUNKTIONIERT */
+}
+
+/* Buttons anpassen */
+button[kind="primary"] {
+    background-color: #ADFF2F !important;
+    color: wh#ADFF2F !important;
+    border: #ADFF2F !important;
+    /* FUNKTIONIERT NICHT */
+}
+
+/* Fortschrittsbalken */
+div[data-testid="stProgress"] > div > div > div {
+    background-color: #ADFF2F !important;
+    /* FUNKTIONIERT NICHT */
+}
+
+/* Sektionen und Karten */
+[data-testid="stVerticalBlock"] {
+    background-color: #ADFF2F;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    /* FUNKTIONIERT */
+}
+
+/* Zentrierung (optional) */
+h1, h2, h3 {
+    color: #ADFF2Fff;
+    /* FUNKTIONIERT NICHT? */
+}
+</style>
+""", 
+unsafe_allow_html=True,
+)

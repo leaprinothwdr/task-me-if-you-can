@@ -3,25 +3,6 @@ import pandas as pd
 import datetime
 import random
 
-st.set_page_config(page_title="TaskMeIfYouCan", layout="wide")
-st.markdown("""
-    <style>
-        html, body, [class*="css"]  {
-            font-family: 'Helvetica Neue', sans-serif;
-        }
-        .block-container {
-            padding: 2rem 4rem;
-        }
-        .stProgress > div > div > div > div {
-            background-color: #007aff;
-            height: 20px;
-            border-radius: 10px;
-        }
-        .stSlider > div[data-baseweb="slider"] > div {
-            padding: 0.5rem;
-        }
-    </style>
-""", unsafe_allow_html=True)
 
 # Beispielhafte motivierende Sprüche
 MOTIVATION_QUOTES = [
