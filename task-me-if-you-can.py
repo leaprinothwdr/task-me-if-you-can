@@ -163,27 +163,27 @@ st.markdown(
 <style>
 /* Hintergrund dunkel */
 body, .stApp {
-    background-color: #98F5FF;
-    color: #98F5FF;
-    /* FUNKTIONIERT */
+    background-color: #2E2E2E;
+    color: #2E2E2E;
+    /* FUNKTIONIERT, erledigt*/
 }
 
 /* Schrift anpassen */
 html, body, [class^="css"] {
-    font-family: 'Helvetica';
-    font-size: 16px;
-    color: #f5f5f5;
-    /* FUNKTIONIERT */
+    font-family: 'Helvetica';                           /* NOCH NICHT ERLEDIGT */
+    font-size: 15px;
+    color: #2E2E2E;
+    /* FUNKTIONIERT, erledigt */
 }
 
 /* Inputfelder größer und heller */
 input, textarea, select {
-    font-size: 2.5rem !important;               /* Text von der Eingabe im Feld 1 */
-    background-color: #2a2a2a !important;
-    color: #ffffff !important;
-    border: 1px solid #555 !important;
-    border-radius: 8px !important;
-    /*FUNKTIONIERT */
+    font-size: 1.25rem !important;                            /* Text von der Eingabe im Feld 1 */
+    background-color: #2E2E2E !important;
+    color: #FFFAFA !important;
+    border: 1px solid #555 !important;      /* NOCH NICHT ERLEDIGT */
+    border-radius: 8px !important;      /* NOCH NICHT ERLEDIGT */
+    /*FUNKTIONIERT, erledigt */
 }
 
 /* Buttons anpassen */
@@ -191,22 +191,22 @@ button[kind="primary"] {
     background-color: #ADFF2F !important;
     color: wh#ADFF2F !important;
     border: #ADFF2F !important;
-    /* FUNKTIONIERT NICHT */
+                                                            /* FUNKTIONIERT NICHT */
 }
 
 /* Fortschrittsbalken */
 div[data-testid="stProgress"] > div > div > div {
     background-color: #ADFF2F !important;
-    /* FUNKTIONIERT NICHT */
+                                                            /* FUNKTIONIERT NICHT */
 }
 
 /* Sektionen und Karten */
 [data-testid="stVerticalBlock"] {
-    background-color: #ADFF2F;
+    background-color: #FFFAF0;
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 1rem;
-    /* FUNKTIONIERT */
+    /* FUNKTIONIERT*/
 }
 
 /* Zentrierung (optional) */
