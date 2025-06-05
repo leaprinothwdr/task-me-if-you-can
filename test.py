@@ -154,3 +154,59 @@ elif page == "Kalender":
         ]).sort_values("Fälligkeitsdatum")
 
         st.dataframe(calendar_data, use_container_width=True)
+
+st.markdown(
+    """
+<style>
+/* Hintergrund dunkel */
+body, .stApp {
+    background-color: #98F5FF;
+    color: #98F5FF;
+    /* FUNKTIONIERT */
+}
+
+/* Schrift anpassen */
+html, body, [class^="css"] {
+    font-family: 'Helvetica';
+    font-size: 16px;
+    color: #f5f5f5;
+    /* FUNKTIONIERT */
+}
+
+/* Inputfelder größer und heller */
+input, textarea, select {
+    font-size: 1.2rem !important;
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+    border: 1px solid #555 !important;
+    border-radius: 8px !important;
+}
+
+/* Buttons anpassen */
+button[kind="primary"] {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border: none !important;
+}
+
+/* Fortschrittsbalken */
+div[data-testid="stProgress"] > div > div > div {
+    background-color: #4CAF50 !important;
+}
+
+/* Sektionen und Karten */
+[data-testid="stVerticalBlock"] {
+    background-color: #2b2b2b;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Zentrierung (optional) */
+h1, h2, h3 {
+    color: #ffffff;
+}
+</style>
+""", 
+unsafe_allow_html=True,
+)
