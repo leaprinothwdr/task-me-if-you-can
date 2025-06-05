@@ -5,12 +5,28 @@ import random
 
 # Beispielhafte motivierende Sprüche
 MOTIVATION_QUOTES = [
-    "Du schaffst das! 💪",
-    "Bleib dran – es lohnt sich! ✨",
-    "Jeder Schritt bringt dich näher ans Ziel! 🛤️",
-    "Fokus und Ausdauer bringen dich weiter! 🧠",
-    "Mach weiter, du bist auf dem richtigen Weg! 🏁"
+    "Mach weiter, oder ich fang an zu schreien. 😤",
+    "Wenn du's heute nicht machst, macht’s morgen niemand. 🫠",
+    "Aufgaben lösen sich nicht von selbst. Leider. 😬",
+    "Los jetzt, die Deadline wartet nicht auf faule Ausreden. ⏰",
+    "Deine To-Do-Liste lacht dich gerade aus. Zeig ihr, wer Boss ist. 😎",
+    "Das ist keine Aufgabe. Das ist ein Charaktertest. 💥",
+    "Jede nicht erledigte Aufgabe macht eine Katze traurig. 😿",
+    "Du bist nicht müde. Du bist unmotiviert. Ändern wir das! 🔥",
+    "Willst du chillen oder deinen Abschluss? Beides geht nicht. 💀",
+    "Ich sag’s dir ungern, aber... du musst das jetzt machen. Sofort. 🫵"
+    "Tu’s jetzt, sonst kommt der Lern-Goblin um Mitternacht. 🧌",
+    "Erinnerst du dich an Motivation? Nein? Dann fang an! 🫵",
+    "Diese Aufgabe erledigt sich nicht durch Scrollen. 📱✖️",
+    "Du hast mehr Zeit als Ausreden. Los jetzt. 😠",
+    "Wenn du’s nicht machst, mach ich’s... aber schlecht. 🧟‍♂️",
+    "Deadline? Klingt wie dein Schicksal. 🔪",
+    "Du bist nicht zu müde. Dein innerer Schweinehund hat nur WLAN. 🐷📶",
+    "Jeder Klick auf ‚Später‘ löscht ein Hirnzellchen. 🧠🔥",
+    "Mach jetzt. Oder Duolingo schickt dir eine Eule in den Schlaf. 🦉",
+    "Entweder du erledigst die Aufgabe – oder sie erledigt dich. ☠️"
 ]
+
 
 # Initialisierung Session State
 if 'tasks' not in st.session_state:
