@@ -160,6 +160,18 @@ elif page == "Kalender":
 st.markdown(
     """
 <style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body, html, .stApp, [class^="css"], * {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px;
+    color: #f0f000;
+
+}
+
+
 /* Hintergrund dunkel */
 body, .stApp {
     background-color: #2E2E2E;
@@ -169,7 +181,7 @@ body, .stApp {
 
 /* Schrift anpassen */
 html, body, [class^="css"] {
-    font-family: 'Helvetica';                           /* NOCH NICHT ERLEDIGT */
+    font-family: 'Helvetica';     !important                       /* NOCH NICHT ERLEDIGT */
     font-size: 15px;
     color: #2E2E2E;
     /* FUNKTIONIERT, erledigt */
@@ -179,7 +191,7 @@ html, body, [class^="css"] {
 input, textarea, select {
     font-size: 1.25rem !important;                            /* Text von der Eingabe im Feld 1 */
     background-color: #2E2E2E !important;
-    color: #FFFAFA !important;
+    color: 	#f0ffff !important;
     border: 1px solid #555 !important;      /* NOCH NICHT ERLEDIGT */
     border-radius: 8px !important;      /* NOCH NICHT ERLEDIGT */
     /*FUNKTIONIERT, erledigt */
@@ -201,7 +213,7 @@ div[data-testid="stProgress"] > div > div > div {
 
 /* Sektionen und Karten */
 [data-testid="stVerticalBlock"] {
-    background-color: #FFFAF0;
+    background-color: #FFFFFF;
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 1rem;
