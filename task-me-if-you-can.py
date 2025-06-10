@@ -3,6 +3,12 @@ import pandas as pd
 import datetime
 import random
 
+# Animation Emojis für die Motivationssprüche
+ANIMATION_EMOJIS = [
+    "🏃‍♂️💨", "⭐️✨", "🌈🌟", "🎯💫", "💪🔥", "🚀✨", "🌞🌈", "🎉✨", "🦸‍♂️💫", "🎨💫",
+    "🌱🌿", "🎸💫", "⚡️💫", "🎭✨", "🎪🌟", "🎡💫", "🎢✨", "🎨🌈", "🎬💫", "🎮✨"
+]
+
 # Beispielhafte motivierende Sprüche
 MOTIVATION_QUOTES = [
 
@@ -52,6 +58,12 @@ if 'tasks' not in st.session_state:
 if 'deleted_tasks' not in st.session_state:
     st.session_state.deleted_tasks = []
 
+# Hilfsfunktion zum Wiederherstellen von Aufgaben
+def restore_task(task, source_list, task_index):
+    task['done'] = False  # Setze den Status auf "nicht erledigt"
+    st.session_state.tasks.append(task)  # Füge zur aktiven Liste hinzu
+    source_list.pop(task_index)  # Entferne aus der Ursprungsliste
+
 # Seitenwahl
 st.sidebar.title("📚 Navigation")
 page = st.sidebar.radio("Wähle eine Seite:", ["Aktive Aufgaben", "Erledigte Aufgaben", "Gelöschte Aufgaben", "Kalender"])
@@ -59,7 +71,23 @@ page = st.sidebar.radio("Wähle eine Seite:", ["Aktive Aufgaben", "Erledigte Auf
 # Seite: Aktive Aufgaben
 if page == "Aktive Aufgaben":
     st.title("🎓 Task me if you can")
-    st.subheader(random.choice(MOTIVATION_QUOTES))
+    
+    # Motivationsspruch mit Animation
+    col1, col2 = st.columns([4, 1])
+    with col1:
+        st.subheader(random.choice(MOTIVATION_QUOTES))
+    with col2:
+        st.markdown(f"<h1 style='text-align: center; animation: bounce 1s infinite;'>{random.choice(ANIMATION_EMOJIS)}</h1>", unsafe_allow_html=True)
+
+    # Füge CSS für die Animation hinzu
+    st.markdown("""
+        <style>
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        </style>
+    """, unsafe_allow_html=True)
 
     with st.form("new_task_form"):
         title = st.text_input("Neue Aufgabe")
@@ -126,6 +154,11 @@ elif page == "Erledigte Aufgaben":
             st.markdown(f"**{task['title']}** – Priorität: {task['priority']} – Fällig am: {task['due_date']}")
             st.progress(task['progress'])
 
+            # Wiederherstellen-Button
+            if st.button(f"✅ Wiederherstellen", key=f"restore_{i}"):
+                restore_task(task, erledigte_tasks, i)
+                st.success(f"Aufgabe '{task['title']}' wurde wiederhergestellt!")
+
 # Seite: Gelöschte Aufgaben
 elif page == "Gelöschte Aufgaben":
     st.title("🗑️ Gelöschte Aufgaben")
@@ -133,9 +166,14 @@ elif page == "Gelöschte Aufgaben":
     if not st.session_state.deleted_tasks:
         st.info("Keine Aufgaben wurden gelöscht.")
     else:
-        for task in st.session_state.deleted_tasks:
+        for i, task in enumerate(st.session_state.deleted_tasks):
             st.markdown(f"❌ **{task['title']}** – Priorität: {task['priority']} – Fällig am: {task['due_date']}")
             st.progress(task['progress'])
+
+            # Wiederherstellen-Button
+            if st.button(f"✅ Wiederherstellen", key=f"restore_deleted_{i}"):
+                restore_task(task, st.session_state.deleted_tasks, i)
+                st.success(f"Aufgabe '{task['title']}' wurde wiederhergestellt!")
 
 # Seite: Kalender
 elif page == "Kalender":
