@@ -267,3 +267,13 @@ h1, h2, h3 {
 """, 
 unsafe_allow_html=True,
 )
+
+
+#from streamlit-push-notifications import send_push
+
+#st.title("Task me if you can Push-Benachrichtigung")
+
+#if st.button("Send Notification"):
+   # send_push(title="Hast du etwas vergessen?",
+      #        body="Es wartet eine Aufgabe auf dich!",
+      #        tag="test")
