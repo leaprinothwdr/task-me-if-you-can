@@ -19,7 +19,7 @@ MOTIVATION_QUOTES = [
     "Wenn du's heute nicht machst, macht’s morgen niemand. 🫠",
     "Aufgaben lösen sich nicht von selbst. Leider. 😬",
     "Los jetzt, die Deadline wartet nicht auf faule Ausreden. ⏰",
-    "Deine To-Do-Liste lacht dich gerade aus. Zeig ihr, wer Boss ist. 😎",
+    "Deine To-Do-Liste lacht dich gerade aus. Zeig ihr, wer der Boss ist. 😎",
     "Das ist keine Aufgabe. Das ist ein Charaktertest. 💥",
     "Jede nicht erledigte Aufgabe macht eine Katze traurig. 😿",
     "Du bist nicht müde. Du bist unmotiviert. Ändern wir das! 🔥",
@@ -167,7 +167,7 @@ st.markdown(
 body, html, .stApp, [class^="css"], * {
     font-family: 'Poppins', sans-serif !important;
     font-size: 15px;
-    color: #f0f000;
+    color: #2E2E2E;
 
 }
 
