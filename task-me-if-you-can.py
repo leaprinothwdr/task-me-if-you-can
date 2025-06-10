@@ -176,7 +176,7 @@ body, html, .stApp, [class^="css"], * {
 body, .stApp {
     background-color: #2E2E2E;
     color: #2E2E2E;
-    /* FUNKTIONIERT, erledigt*/
+   
 }
 
 /* Schrift anpassen */
@@ -184,17 +184,17 @@ html, body, [class^="css"] {
     font-family: 'Helvetica';     !important                       /* NOCH NICHT ERLEDIGT */
     font-size: 15px;
     color: #2E2E2E;
-    /* FUNKTIONIERT, erledigt */
+    
 }
 
 /* Inputfelder größer und heller */
 input, textarea, select {
-    font-size: 1.25rem !important;                            /* Text von der Eingabe im Feld 1 */
+    font-size: 1.2rem !important;                            /* Text von der Eingabe im Feld 1 */
     background-color: #2E2E2E !important;
     color: 	#f0ffff !important;
     border: 1px solid #555 !important;      /* NOCH NICHT ERLEDIGT */
     border-radius: 8px !important;      /* NOCH NICHT ERLEDIGT */
-    /*FUNKTIONIERT, erledigt */
+    
 }
 
 /* Buttons anpassen */
@@ -217,13 +217,13 @@ div[data-testid="stProgress"] > div > div > div {
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 1rem;
-    /* FUNKTIONIERT*/
+    
 }
 
 /* Zentrierung (optional) */
 h1, h2, h3 {
     color: #ADFF2Fff;
-    /* FUNKTIONIERT NICHT? */
+    
 }
 </style>
 """, 
