@@ -166,7 +166,7 @@ st.markdown(
 
 body, html, .stApp, [class^="css"], * {
     font-family: 'Poppins', sans-serif !important;
-    font-size: 15px;
+    font-size: 16px;
     color: #2E2E2E;
 
 }
