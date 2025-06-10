@@ -200,7 +200,8 @@ st.markdown(
 <style>
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap'); 
+
 
 body, html, .stApp, [class^="css"], * {
     font-family: 'Poppins', sans-serif !important;
