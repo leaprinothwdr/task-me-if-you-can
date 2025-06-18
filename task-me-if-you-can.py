@@ -291,8 +291,8 @@ input, textarea, select {
     background-color: #2E2E2E !important;
 
     color: 	#f0ffff !important;
-    border: 1px solid #555 !important;      /* NOCH NICHT ERLEDIGT */
-    border-radius: 8px !important;      /* NOCH NICHT ERLEDIGT */
+    border: 1px solid #555 !important;      
+    border-radius: 8px !important;      
     
 } */
 
