@@ -226,7 +226,7 @@ html, body, [class^="css"] {
     
 }
 
-/* Inputfelder größer und heller */
+/* Inputfelder größer und heller 
 input, textarea, select {
     font-size: 1.2rem !important;                            /* Text von der Eingabe im Feld 1 */
     background-color: #2E2E2E !important;
@@ -234,20 +234,20 @@ input, textarea, select {
     border: 1px solid #555 !important;      /* NOCH NICHT ERLEDIGT */
     border-radius: 8px !important;      /* NOCH NICHT ERLEDIGT */
     
-}
+} */
 
-/* Buttons anpassen */
+/* Buttons anpassen 
 button[kind="primary"] {
     background-color: #ADFF2F !important;
     color: wh#ADFF2F !important;
     border: #ADFF2F !important;
-                                                            /* FUNKTIONIERT NICHT */
-}
+                                                            
+} */
 
 /* Fortschrittsbalken */
 div[data-testid="stProgress"] > div > div > div {
     background-color: #ADFF2F !important;
-                                                            /* FUNKTIONIERT NICHT */
+                                                            
 }
 
 /* Sektionen und Karten */
@@ -270,11 +270,11 @@ unsafe_allow_html=True,
 )
 
 
-#from streamlit-push-notifications import send_push
+from streamlit-push-notifications import send_push
 
-#st.title("Task me if you can Push-Benachrichtigung")
+st.title("Task me if you can Push-Benachrichtigung")
 
-#if st.button("Send Notification"):
-   # send_push(title="Hast du etwas vergessen?",
-      #        body="Es wartet eine Aufgabe auf dich!",
-      #        tag="test")
+if st.button("Send Notification"):
+   send_push(title="Hast du etwas vergessen?",
+             body="Es wartet eine Aufgabe auf dich!",
+             tag="test")
