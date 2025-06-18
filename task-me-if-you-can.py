@@ -3,6 +3,14 @@ import pandas as pd
 import datetime
 import random
 
+# Konfiguration der Seite für bessere Responsivität
+st.set_page_config(
+    page_title="Task me if you can",
+    page_icon="🎓",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 # Animation Emojis für die Motivationssprüche
 ANIMATION_EMOJIS = [
     "🏃‍♂️💨", "⭐️✨", "🌈🌟", "🎯💫", "💪🔥", "🚀✨", "🌞🌈", "🎉✨", "🦸‍♂️💫", "🎨💫",
@@ -198,83 +206,133 @@ elif page == "Kalender":
 st.markdown(
     """
 <style>
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap'); 
-
-
-body, html, .stApp, [class^="css"], * {
-    font-family: 'Poppins', sans-serif !important;
-    font-size: 16px;
-    color: #2E2E2E;
-
+/* Fix für das Sidebar-Icon */
+.st-emotion-cache-1knqrfg.ef3psqc4 {
+    display: none;
 }
 
+.st-emotion-cache-1knqrfg.ef3psqc4::before {
+    content: "→";
+    font-size: 24px;
+    display: inline-block;
+}
 
-/* Hintergrund dunkel */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* Responsive Base Styles */
+body, html, .stApp, [class^="css"], * {
+    font-family: 'Poppins', sans-serif !important;
+    color: #2E2E2E;
+    box-sizing: border-box;
+}
+
+/* Responsive Typography */
+body {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .stButton > button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+/* Responsive Container und Layout */
+.stApp > header {
+    max-width: 100% !important;
+}
+
+.stApp > .main .block-container {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+/* Responsive Forms und Inputs */
+input, textarea, select, .stSelectbox {
+    max-width: 100% !important;
+    font-size: calc(14px + 0.5vw) !important;
+    padding: 0.5rem !important;
+}
+
+/* Responsive Progress Bars */
+.stProgress > div {
+    max-width: 100% !important;
+}
+
+/* Responsive Buttons */
+.stButton > button {
+    font-size: calc(12px + 0.3vw);
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+}
+
+/* Background und Farben */
 body, .stApp {
     background-color: #2E2E2E;
     color: #2E2E2E;
-   
 }
 
-/* Schrift anpassen */
-html, body, [class^="css"] {
-    font-family: 'Helvetica';     !important                       /* NOCH NICHT ERLEDIGT */
-    font-size: 15px;
-    color: #2E2E2E;
-    
-}
-
-/* Inputfelder größer und heller */
+/* Inputfelder */
 input, textarea, select {
-    font-size: 1.2rem !important;                            /* Text von der Eingabe im Feld 1 */
     background-color: #2E2E2E !important;
-    color: 	#f0ffff !important;
-    border: 1px solid #555 !important;      /* NOCH NICHT ERLEDIGT */
-    border-radius: 8px !important;      /* NOCH NICHT ERLEDIGT */
-    
+    color: #f0ffff !important;
+    border: 1px solid #555 !important;
+    border-radius: 8px !important;
 }
 
-/* Buttons anpassen */
+/* Buttons */
 button[kind="primary"] {
     background-color: #ADFF2F !important;
-    color: wh#ADFF2F !important;
+    color: #ADFF2F !important;
     border: #ADFF2F !important;
-                                                            /* FUNKTIONIERT NICHT */
 }
 
 /* Fortschrittsbalken */
 div[data-testid="stProgress"] > div > div > div {
     background-color: #ADFF2F !important;
-                                                            /* FUNKTIONIERT NICHT */
 }
 
 /* Sektionen und Karten */
 [data-testid="stVerticalBlock"] {
     background-color: #FFFFFF;
-    padding: 1rem;
+    padding: clamp(0.5rem, 2vw, 1rem);
     border-radius: 10px;
-    margin-bottom: 1rem;
-    
+    margin-bottom: clamp(0.5rem, 2vw, 1rem);
 }
 
-/* Zentrierung (optional) */
+/* Überschriften */
 h1, h2, h3 {
     color: #ADFF2Fff;
-    
+    font-size: clamp(1.2rem, 3vw, 2rem);
+}
+
+/* Flexible Container */
+.row-widget {
+    flex-wrap: wrap;
+}
+
+/* Responsive Spalten */
+.css-1r6slb0, .css-12w0qpk {
+    flex-wrap: wrap !important;
+}
+
+/* Responsive Sidebar */
+@media screen and (max-width: 768px) {
+    .css-1d391kg, .css-12w0qpk {
+        width: 100% !important;
+    }
 }
 </style>
 """, 
-unsafe_allow_html=True,
+unsafe_allow_html=True
 )
-
-
-#from streamlit-push-notifications import send_push
-
-#st.title("Task me if you can Push-Benachrichtigung")
-
-#if st.button("Send Notification"):
-   # send_push(title="Hast du etwas vergessen?",
-      #        body="Es wartet eine Aufgabe auf dich!",
-      #        tag="test")
