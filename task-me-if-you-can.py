@@ -282,22 +282,14 @@ body, .stApp {
     color: #2E2E2E;
 }
 
-<<<<<<< HEAD
-/* Schrift anpassen */
-html, body, [class^="css"] {
-    font-family: 'Helvetica';     !important                       /* NOCH NICHT ERLEDIGT */
-    font-size: 15px;
-    color: #2E2E2E;
     
-}
 
 /* Inputfelder größer und heller 
-=======
+
 /* Inputfelder */
->>>>>>> ffd58f67b2246657164fca0e5ce5913ba1b7d5c4
 input, textarea, select {
     background-color: #2E2E2E !important;
-<<<<<<< HEAD
+
     color: 	#f0ffff !important;
     border: 1px solid #555 !important;      /* NOCH NICHT ERLEDIGT */
     border-radius: 8px !important;      /* NOCH NICHT ERLEDIGT */
@@ -305,32 +297,24 @@ input, textarea, select {
 } */
 
 /* Buttons anpassen 
-=======
+
     color: #f0ffff !important;
     border: 1px solid #555 !important;
     border-radius: 8px !important;
 }
 
-/* Buttons */
->>>>>>> ffd58f67b2246657164fca0e5ce5913ba1b7d5c4
+/* Buttons
 button[kind="primary"] {
     background-color: #ADFF2F !important;
     color: #ADFF2F !important;
-    border: #ADFF2F !important;
-<<<<<<< HEAD
-                                                            
+    border: #ADFF2F !important;                                                     
 } */
-=======
-}
->>>>>>> ffd58f67b2246657164fca0e5ce5913ba1b7d5c4
+
+
 
 /* Fortschrittsbalken */
 div[data-testid="stProgress"] > div > div > div {
     background-color: #ADFF2F !important;
-<<<<<<< HEAD
-                                                            
-=======
->>>>>>> ffd58f67b2246657164fca0e5ce5913ba1b7d5c4
 }
 
 /* Sektionen und Karten */
@@ -365,7 +349,6 @@ h1, h2, h3 {
 }
 </style>
 """, 
-<<<<<<< HEAD
 unsafe_allow_html=True,
 )
 
@@ -378,7 +361,6 @@ if st.button("Send Notification"):
    send_push(title="Hast du etwas vergessen?",
              body="Es wartet eine Aufgabe auf dich!",
              tag="test")
-=======
-unsafe_allow_html=True
-)
->>>>>>> ffd58f67b2246657164fca0e5ce5913ba1b7d5c4
+
+
+
